@@ -11,10 +11,10 @@ function App() {
         <div className="app__body">
           <Switch>
           <Route exect path="/preview">
-            <Preview />
+             <Preview />
             </Route>
             <Route exect path="/">
-            <WebcamCapture />
+              <WebcamCapture />
             </Route>
           </Switch>
         </div>
